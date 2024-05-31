@@ -22,7 +22,7 @@ const Banner = () => {
                 <p className="flex items-center gap-x-2 md:gap-x-5">
                   A creative{" "}
                   <span>
-                    <img src="/src/assets/star.png" alt="" className="w-5" />
+                    <img src={star} alt="" className="w-5 lg:w-8" />
                   </span>
                   Designer
                 </p>
@@ -38,11 +38,11 @@ const Banner = () => {
               <div className="flex items-center gap-x-1 pt-8 font-Rubik text-base font-light uppercase text-primaryFontColor md:pt-4 lg:gap-x-5 lg:pt-8 lg:text-2xl">
                 <p>Design</p>
                 <span>
-                  <img src={star} alt="" className="w-4" />
+                  <img src={star} alt="" className="w-4 lg:w-8" />
                 </span>
                 <p>Development</p>
                 <span>
-                  <img src={star} alt="" className="w-4" />
+                  <img src={star} alt="" className="w-4 lg:w-8" />
                 </span>
                 <p>Webflow</p>
               </div>
