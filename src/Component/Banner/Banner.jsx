@@ -2,6 +2,10 @@ import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { IoStar } from "react-icons/io5";
+import bannerImg from "../../assets/rodro.png";
+import star from "../../assets/star.png";
+
+import star2 from "../../assets/star2.png";
 
 const Banner = () => {
   return (
@@ -34,11 +38,11 @@ const Banner = () => {
               <div className="flex items-center gap-x-1 pt-8 font-Rubik text-base font-light uppercase text-primaryFontColor md:pt-4 lg:gap-x-5 lg:pt-8 lg:text-2xl">
                 <p>Design</p>
                 <span>
-                  <img src="/src/assets/star.png" alt="" className="w-4" />
+                  <img src={star} alt="" className="w-4" />
                 </span>
                 <p>Development</p>
                 <span>
-                  <img src="/src/assets/star.png" alt="" className="w-4" />
+                  <img src={star} alt="" className="w-4" />
                 </span>
                 <p>Webflow</p>
               </div>
@@ -85,10 +89,13 @@ const Banner = () => {
               </div>
             </div>
             <div>
-              <div className="relative mb-9 h-[246px] w-[246px] overflow-hidden rounded-full border-4 border-thirdBgColor bg-secondaryBgColor md:mb-0 md:h-[340px] md:w-[340px] lg:h-[485px] lg:w-[485px]">
+              <div
+                id="bannerImg"
+                className="relative mb-9 h-[246px] w-[246px] overflow-hidden rounded-full border-4 border-thirdBgColor bg-secondaryBgColor md:mb-0 md:h-[340px] md:w-[340px] lg:h-[485px] lg:w-[485px]"
+              >
                 <img
                   id="bannerimg"
-                  src="/src/assets/rodro.png"
+                  src={bannerImg}
                   alt=""
                   className="w- absolute top-0"
                 />
@@ -113,7 +120,7 @@ const Banner = () => {
                 <span>
                   {" "}
                   <img
-                    src="/src/assets/star2.png"
+                    src={star2}
                     alt=""
                     className="absolute bottom-[30px] z-50 w-8 md:bottom-[53px] md:w-[34px]"
                   />

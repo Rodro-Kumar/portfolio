@@ -1,6 +1,9 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-
+import ochi from "../../assets/ochi.png";
+import ochi2 from "../../assets/ochi2.png";
+import oreby from "../../assets/oreby.png";
+import oreby2 from "../../assets/oreby2.png";
 const MyPortfolio = () => {
   return (
     <>
@@ -34,18 +37,10 @@ const MyPortfolio = () => {
             <div className="flex flex-col items-center justify-between pt-12 md:flex-row md:gap-x-10 lg:gap-x-0">
               <div className="relative mb-5 h-[280px] w-[326px] overflow-hidden bg-black px-4 md:mb-0 lg:h-[334px] lg:w-[445px] lg:px-8">
                 <div className="ml-auto w-[187px] lg:w-[274px]">
-                  <img
-                    src="/src/assets/oreby2.png"
-                    alt=""
-                    className="w-full object-cover"
-                  />
+                  <img src={oreby2} alt="" className="w-full object-cover" />
                 </div>
                 <div className="absolute left-4 top-[131px] w-[189px] shadow-2xl shadow-black lg:left-8 lg:w-[274px]">
-                  <img
-                    src="/src/assets/oreby.png"
-                    alt=""
-                    className="w-full object-cover"
-                  />
+                  <img src={oreby} alt="" className="w-full object-cover" />
                 </div>
               </div>
               <div>
@@ -86,18 +81,10 @@ const MyPortfolio = () => {
             <div className="flex flex-col items-center justify-between pt-14 md:flex-row-reverse md:gap-x-10 lg:gap-x-0">
               <div className="relative mb-5 h-[280px] w-[326px] overflow-hidden bg-black px-4 lg:mb-0 lg:h-[334px] lg:w-[445px] lg:px-8">
                 <div className="ml-auto w-[187px] lg:w-[274px]">
-                  <img
-                    src="/src/assets/ochi2.png"
-                    alt=""
-                    className="w-full object-cover"
-                  />
+                  <img src={ochi2} alt="" className="w-full object-cover" />
                 </div>
                 <div className="absolute left-4 top-[131px] w-[189px] shadow-2xl shadow-black lg:left-8 lg:w-[274px]">
-                  <img
-                    src="/src/assets/ochi.png"
-                    alt=""
-                    className="w-full object-cover"
-                  />
+                  <img src={ochi} alt="" className="w-full object-cover" />
                 </div>
               </div>
               <div>
