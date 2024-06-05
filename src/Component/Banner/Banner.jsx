@@ -4,7 +4,6 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { IoStar } from "react-icons/io5";
 import bannerImg from "../../assets/rodro.png";
 import star from "../../assets/star.png";
-
 import star2 from "../../assets/star2.png";
 
 const Banner = () => {
